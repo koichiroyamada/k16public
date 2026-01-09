@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マウンテンバイクのジオメトリーを勉強する - 模型製作と自転車</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.k16.com/articles/mtb_geometry.html">
+
+    <!-- Atom Feed -->
+    <link rel="alternate" type="application/atom+xml" title="模型製作と自転車 Atom Feed" href="https://www.k16.com/atom.xml">
+
+    <!-- Open Graph / OGP -->
+    <meta property="og:site_name" content="模型製作と自転車">
+    <meta property="og:url" content="https://www.k16.com/articles/mtb_geometry.html">
+    <meta property="og:title" content="マウンテンバイクのジオメトリーを勉強する">
+    
+    <meta property="og:description" content="マウンテンバイクのジオメトリーというのがいまひとつ理解できておりませんでした。フラットな砂利道を走るのとゲレンデを降るのでは違う自転車だとはわかるけどどう違うんだろう？ちょっとずつ勉強しています。">
+    
+    <meta property="og:type" content="article">
+    
+    <meta property="og:image" content="https://www.k16.comimages/bike/jamis_dragonslayer/mtb_geometry-cover.jpg">
+    
+    <meta property="og:locale" content="ja_JP">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@koichiroyamada">
+    <meta name="twitter:creator" content="@koichiroyamada">
+    <meta name="twitter:title" content="マウンテンバイクのジオメトリーを勉強する">
+    
+    <meta name="twitter:description" content="マウンテンバイクのジオメトリーというのがいまひとつ理解できておりませんでした。フラットな砂利道を走るのとゲレンデを降るのでは違う自転車だとはわかるけどどう違うんだろう？ちょっとずつ勉強しています。">
+    
+    
+    <meta name="twitter:image" content="https://www.k16.comimages/bike/jamis_dragonslayer/mtb_geometry-cover.jpg">
+    
+
+    <!-- Article specific metadata -->
+    
+    <meta property="article:published_time" content="2020-10-26T16:22:00">
+    <meta property="article:author" content="Koichiro Yamada">
+    
+
+    <!-- Google Analytics (GA4) -->
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DFESZ2MNVH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-DFESZ2MNVH');
+    </script>
+    
+
+    <!-- Google Adsense -->
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7795992195397098"
+            crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="/">模型製作と自転車</a></h1>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/archives.html">Archives</a>
+                <a href="/categories.html">Categories</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container">
+        
+<article>
+    <header>
+        <h1>マウンテンバイクのジオメトリーを勉強する</h1>
+        <div class="article-meta">
+            <time>2020年10月26日</time>
+            <span class="separator">/</span>
+            <span>bike</span>
+        </div>
+    </header>
+    
+    <div class="content">
+        <div class="toc">
+<ul>
+<li><a href="#_1">ジオメトリーの違いを知らない</a></li>
+<li><a href="#_2">リーチを参考に運転スペースの適正値を探る</a></li>
+<li><a href="#_3">スタックで乗車姿勢がかわる</a></li>
+<li><a href="#_4">乗りたい自転車</a></li>
+<li><a href="#_5">トレイルバイクをクロスカントリーに近づける</a></li>
+</ul>
+</div>
+<h1 id="_1">ジオメトリーの違いを知らない</h1>
+<p>好きなメーカーの興味があるジャンルで予算が合うマウンテンバイクを買うだけなので、ジオメトリーがどのように影響するかなんてこれっぽっちも把握していませんでした。今もってわかっていません。ただ、なんとなく感じるものはあります。そのなんとなくを整理してみることにしました。</p>
+<p>これまでにCannondaleのF400とOn-Oneの456 evo2に乗ってきました。CannondaleのF400については、カタログが手元にあり、ジオメトリーが掲載されていますがトレンドが違いすぎて参考になりません。一応オールマウンテンというジャンル分けになっていますね。On-Oneの456 evo2もオールマウンテンだったかな？ジオメトリーを掲載していたウェブページがなくなってしまったので、これも数値がわからず。それに乗った感じもすでに朧げな記憶になっていますから参考にならない……。</p>
+<p>いま乗っているのはJamisのDragonslayerです。ここが基本になりますね。</p>
+<p>乗って感じた特徴は2点。</p>
+<p>トップチューブにまたがった時に股座がギリギリ。つまりスタンドオーバーハイトがギリギリ。それと王滝でコースを登っていた時にハンドルがやたらと近く感じて狭苦しく感じた。つまりリーチが短い。</p>
+<p>この2点が気になったのでジオメトリーについて知ろうと考えたのでした。</p>
+<p>いつまで掲載されているのかわかりませんが、<a href="https://www.jamis-japan.com/dragonslayer-sport.html">DRAGONSLAYER 27.5+ SPORT</a>のジオメトリーは下記の通り。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">SIZE</th>
+<th style="text-align: right;">15</th>
+<th style="text-align: right;">17</th>
+<th style="text-align: right;">19</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">SEAT TUBE</td>
+<td style="text-align: right;">359</td>
+<td style="text-align: right;">410</td>
+<td style="text-align: right;">461</td>
+</tr>
+<tr>
+<td style="text-align: left;">EFFECTIVE TT LENGTH</td>
+<td style="text-align: right;">580</td>
+<td style="text-align: right;">600</td>
+<td style="text-align: right;">620</td>
+</tr>
+<tr>
+<td style="text-align: left;">HEAD ANGLE</td>
+<td style="text-align: right;">68°</td>
+<td style="text-align: right;">68°</td>
+<td style="text-align: right;">68°</td>
+</tr>
+<tr>
+<td style="text-align: left;">SEAT ANGLE</td>
+<td style="text-align: right;">73°</td>
+<td style="text-align: right;">73°</td>
+<td style="text-align: right;">73°</td>
+</tr>
+<tr>
+<td style="text-align: left;">CHAIN STAY</td>
+<td style="text-align: right;">435</td>
+<td style="text-align: right;">435</td>
+<td style="text-align: right;">435</td>
+</tr>
+<tr>
+<td style="text-align: left;">WHEEL BASE</td>
+<td style="text-align: right;">1104</td>
+<td style="text-align: right;">1130</td>
+<td style="text-align: right;">1151</td>
+</tr>
+<tr>
+<td style="text-align: left;">BB DROP</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">47</td>
+</tr>
+<tr>
+<td style="text-align: left;">HEAD TUBE</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">110</td>
+</tr>
+<tr>
+<td style="text-align: left;">STAND OVER</td>
+<td style="text-align: right;">773</td>
+<td style="text-align: right;">806</td>
+<td style="text-align: right;">840</td>
+</tr>
+<tr>
+<td style="text-align: left;">STACK</td>
+<td style="text-align: right;">621</td>
+<td style="text-align: right;">626</td>
+<td style="text-align: right;">635</td>
+</tr>
+<tr>
+<td style="text-align: left;">REACH</td>
+<td style="text-align: right;">390</td>
+<td style="text-align: right;">408</td>
+<td style="text-align: right;">426</td>
+</tr>
+<tr>
+<td style="text-align: left;">REAR OLD</td>
+<td style="text-align: right;">148</td>
+<td style="text-align: right;">148</td>
+<td style="text-align: right;">148</td>
+</tr>
+</tbody>
+</table>
+<p>この数字を見て、これはクロスカントリーバイクだとかトレイルバイクだとかわかる人はすごいと思います。</p>
+<p>適応身長は、15インチが155cmから170cmまで、17インチが165cmから175cmまで、19インチが175cmから190cmまでとなっています。身長を考えると17インチが妥当だけれど、取り回しを考えて15インチを購入しました。</p>
+<p>とりあえず足が届くかどうかが重要なのでスタンドオーバーハイトだけ見てました。773mmでギリギリで806mmじゃ完全に股下寸法超えてきます。いやぁ、靴を履けば17インチのフレームサイズでも大丈夫なのはわかるけれど……。適応身長に比べてフレームが大きいなというのが第一印象です。</p>
+<p>でも、スタンドオーバーハイトって乗り始めると実はそれほど重要じゃないのではという気になってきます。</p>
+<p>街中をDragonslayerで走りますと、信号待ちというイベントに出くわします。サドルからトップチューブ上に腰を移動させるわけですが、ちょっと膝を曲げると股間にあたります。スタンドオーバーハイトがギリギリなんだから当たり前のこと。</p>
+<p>ほんの10センチの段差に前輪だけ、後輪だけ載せてみた状態だとどうなるでしょう？</p>
+<p>試してみるのが一番ですが確実に足がつきません……。</p>
+<p>車道から歩道に前輪だけ乗りあげたときに片足を着こうとしたします。歩道に足がつけばセーフですが、車道、路側帯部分に足を着こうと思ったら転倒必至でしょうね。足つきを考えて小さめのフレームという考えは意味がないのがよくわかります。</p>
+<p>自転車のサイズ選びにおいて、股下とトップチューブの間に5センチくらい余裕があるといいなんてアドバイスはまったく役に立たないと思います。障害物を乗り越えることが求められるMTBでは、たとえ足がつかなかったとしてもネガティブなことではないんだと再認識しました。</p>
+<h1 id="_2">リーチを参考に運転スペースの適正値を探る</h1>
+<p>Dragonslayerは小さいフレームを選びました。これはトレイルでの取り回しの良さを重視するなら小さい方がいいよというアドバイスを参考にしました。</p>
+<p>それまで26インチの自転車に乗っていましたので、27.5+の自転車でオフロードを楽しむなら、この選択で間違っていなかったと思います。乗ってみてとてもコントロールしやすいと感じています。</p>
+<p>しかし、購入してから2年と少したった今だとどう判断するかと言ったら15インチではなく、17インチフレームを購入すると思います。</p>
+<p>これは乗り方が変わったのが大きな理由です。</p>
+<p>クルマでトレイルまでアプローチして短時間走るならば15インチでいいでしょう。でも、今の乗り方は、舗装路を片道30キロくらい自走してトレイルに向かったり、王滝のような長い登りや降りを走っています。ならばフレームが大きい方が直進性が高くスピードを維持しやすいことでしょう。</p>
+<p>クイックな操作性よりも直進安定性を求めるということですね。</p>
+<p>それと、王滝の登りで感じたハンドルの近さが改善されると想像されます。懐に余裕がでると疲れにくさにもつながると思いますし、フレームの三角形が大きくなることによりフレームバッグも大きなものが入れられますからバイクパッキングなんかにも都合がいい。トレイルを走るマウンテンバイクというよりはグラベルを長く走るようなアドベンチャー系の使い方に目が向いてきたんでしょうか。長い距離を楽に走れるとグッドなわけです。</p>
+<p>乗りたい場所にあわせてフレームを選ぶ必要があるんだなとようやく理解し始めたのでした。</p>
+<p>となると、不整地に積極的に行くのでなければ、迷ったら小さいフレームって選び方も疑問ですね。街中で使いたい人ならば適正なサイズのフレームを選ぶべきで、迷ったら大きいフレームかもしれない。小さい、大きいの違いをもっと理解しなきゃいけません。</p>
+<p>ジオメトリーのどこを見る？</p>
+<p>これはリーチを見るんだなと理解しました。</p>
+<p>リーチはボトムブラケットの垂線上の位置からヘッドチューブ上端までの水平距離。サドルからハンドルまでの距離という理解で間違いじゃないはず。</p>
+<p>ほかの自転車と比べてみましょう。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">モデル名</th>
+<th style="text-align: center;">サイズ</th>
+<th style="text-align: center;">適応身長</th>
+<th style="text-align: center;">リーチ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">JAMIS Dragonslayer</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">155cm-170cm</td>
+<td style="text-align: center;">390</td>
+</tr>
+<tr>
+<td style="text-align: left;">JAMIS Dragonslayer</td>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">165cm-175cm</td>
+<td style="text-align: center;">408</td>
+</tr>
+<tr>
+<td style="text-align: left;">SPECIALIZED Stumpjunper Comp</td>
+<td style="text-align: center;">S2</td>
+<td style="text-align: center;">158cm-173cm</td>
+<td style="text-align: center;">430/435</td>
+</tr>
+<tr>
+<td style="text-align: left;">SPECIALIZED Stumpjunper Comp</td>
+<td style="text-align: center;">S3</td>
+<td style="text-align: center;">165cm-180cm</td>
+<td style="text-align: center;">450/455</td>
+</tr>
+<tr>
+<td style="text-align: left;">SPECIALIZED Fuse Expert</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: center;">165cm-178cm</td>
+<td style="text-align: center;">440</td>
+</tr>
+<tr>
+<td style="text-align: left;">TREK Fuel EX 9.7</td>
+<td style="text-align: center;">M/L</td>
+<td style="text-align: center;">165cm-179cm</td>
+<td style="text-align: center;">455/460</td>
+</tr>
+<tr>
+<td style="text-align: left;">TREK Roscoe 7</td>
+<td style="text-align: center;">M/L</td>
+<td style="text-align: center;">165cm-179cm</td>
+<td style="text-align: center;">410</td>
+</tr>
+</tbody>
+</table>
+<p>MTBのトレンドとして、フォワードジオメトリーが謳われ、短いステムと長いトップチューブ、寝かせたヘッドアングルというのは理解しています。リーチも長くなる傾向です。</p>
+<p>Dragonslayerと同じようなトレイルバイクのジオメトリーをピックアップしてみました。スペシャライズドやトレックのフルサスペンションモデルが積極的に取り入れているのがよくわかります。ハードテイルは価格帯相応にちょっと保守的。</p>
+<p>フルサスの方がハードテイルよりリーチが長いみたいですね。それにしたって購入したDragonslayerのリーチが短い。400mmを下回っているのは唯一じゃないですか……。そりゃ懐狭く感じるわけだ。適応身長より小さいものを選ぶというのはそういうことなんだ。</p>
+<p>フォワードジオメトリーは登りよりも降りを重視する傾向にあるので、「降りに強い」フルサスバイクのリーチが長いのは納得。Dragonslayerは荒野を延々走るようなイメージの冒険バイクなので、トレンドのフォワードジオメトリーの取り入れ方も限定的と見るべきだと思う。となると17インチフレームが今の乗り方にあっているんだろうってのは納得。リーチって大事だね。</p>
+<h1 id="_3">スタックで乗車姿勢がかわる</h1>
+<p>SDA王滝を何度か走ってみると、29インチのクロスカントリー・フルサスペンションバイクが一番って結論が出てくる。少ない経験からも自分の自転車に足りないものと考えると正しい気がしてくる。</p>
+<p>ということでスタックという数字に注目してみた。</p>
+<p>スタックはボトムブラケットの水平線上からヘッドチューブ上端までの垂線距離。この数字が大きいほどハンドルは高い位置にあることになる。ハンドル位置が高ければ乗車姿勢も起きたものになるはずでアップライトなポジションになるだろう。</p>
+<p>トレイルバイクだけではなく、クロスカントリーバイクの数字も調べてみる。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">モデル名</th>
+<th style="text-align: center;">サイズ</th>
+<th style="text-align: center;">適応身長</th>
+<th style="text-align: center;">スタック</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">JAMIS Dragonslayer</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">155cm-170cm</td>
+<td style="text-align: center;">621</td>
+</tr>
+<tr>
+<td style="text-align: left;">JAMIS Dragonslayer</td>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">165cm-175cm</td>
+<td style="text-align: center;">626</td>
+</tr>
+<tr>
+<td style="text-align: left;">SPECIALIZED Epic Comp Carbon</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: center;">165cm-178cm</td>
+<td style="text-align: center;">591</td>
+</tr>
+<tr>
+<td style="text-align: left;">SPECIALIZED Chisel Comp</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: center;">165cm-178cm</td>
+<td style="text-align: center;">605</td>
+</tr>
+<tr>
+<td style="text-align: left;">SPECIALIZED Stumpjumper Comp</td>
+<td style="text-align: center;">S2</td>
+<td style="text-align: center;">158cm-173cm</td>
+<td style="text-align: center;">613/609</td>
+</tr>
+<tr>
+<td style="text-align: left;">SPECIALIZED Stumpjumper Comp</td>
+<td style="text-align: center;">S3</td>
+<td style="text-align: center;">165cm-180cm</td>
+<td style="text-align: center;">622/618</td>
+</tr>
+<tr>
+<td style="text-align: left;">SPECIALIZED Fuse Expert</td>
+<td style="text-align: center;">M</td>
+<td style="text-align: center;">165cm-178cm</td>
+<td style="text-align: center;">625</td>
+</tr>
+<tr>
+<td style="text-align: left;">TREK Top Fuel 9.7</td>
+<td style="text-align: center;">M/L</td>
+<td style="text-align: center;">165cm-179cm</td>
+<td style="text-align: center;">590/594</td>
+</tr>
+<tr>
+<td style="text-align: left;">TREK Supercaliber 9.7</td>
+<td style="text-align: center;">M/L</td>
+<td style="text-align: center;">165cm-179cm</td>
+<td style="text-align: center;">594</td>
+</tr>
+<tr>
+<td style="text-align: left;">TREK Fuel EX 9.7</td>
+<td style="text-align: center;">M/L</td>
+<td style="text-align: center;">165cm-179cm</td>
+<td style="text-align: center;">613/609</td>
+</tr>
+<tr>
+<td style="text-align: left;">TREK Roscoe 7</td>
+<td style="text-align: center;">M/L</td>
+<td style="text-align: center;">165cm-179cm</td>
+<td style="text-align: center;">615</td>
+</tr>
+</tbody>
+</table>
+<p>なるほど。トレイルバイクは610mmから630mmあたりかな。クロスカントリーバイクは590mmから595mmくらい。当然のようにクロスカントリーの方がハンドル位置が低くいので前傾姿勢な感じのイメージが湧いてくる。</p>
+<p>トレイルバイクの中でもStumpjumperは降りを重視していて、流行りの最先端たるダウンカントリーバイクあたりを意識しているのかな？スタックは高め。TREKのFuelはスタック低めでクロスカントリーに寄せてあるのかな？そして我がDragonslayerはスタックがある方なのでトレイル重視なんだろう。</p>
+<h1 id="_4">乗りたい自転車</h1>
+<p>まだジオメトリーのなんたるやがわからない。マウンテンバイクに求めるものってなんだろう？</p>
+<p>SDA王滝を楽しく走りきりたい！</p>
+<p>という課題なら、登りが得意な自転車だからクロスカントリーかトレイルだろうか。間違ってもダウンヒルやエンデューロってジャンルの自転車じゃないな。オールマウンテンはエンデューロと差がなくなりつつあるみたいだし。軽い方が有利だからクロスカントリーだといいんだろな。</p>
+<p>100kmくらいのサイクリングを楽しみたい！</p>
+<p>としたら……。クロスカントリーが一番か。次点でトレイルもありだろうけれど、マラソン系はクロスカントリーバイクを選ぶ人が多いものね。それに上体が起きすぎては風の影響も大きいからなあ。舗装路中心ならトレイルバイクのが気楽なのかな。</p>
+<p>のんびり里山を走りたい</p>
+<p>里山ってどこだよ！って思いつつ。根っこがうねってたりする林の中を抜けていく道。アップダウンもぼちぼち。数十mも走ったら止まってキョロキョロと景色を眺めちゃうようなところ。数キロも走り続けるような道ではない。この条件ならトレイルバイクだろうなあ。アップライトなポジションが生きてくると思う。ゆったり走るバイクがぴったり。</p>
+<p>ウィリーやマニュアルの練習に</p>
+<p>トリック技の内容はさておきダートジャンプを選ぶべき。クロスカントリーやトレイルとは全くの別ジャンル。26インチが主流で手持ちのパーツが活用できるとか考えちゃうが、ジャンルに特化しているので汎用性は意外と低い。何しろキックスタンドをつけると邪魔なので街乗り兼用は難しい。ギアードも邪道なはず。</p>
+<p>ゲレンデを走る！</p>
+<p>ダウンヒルやエンデューロの出番。怪我が怖いし、怪我なんかしたら生活が成り立たないので乗らない。バイクの限界性能が上がるのは良いし、安全装備について学ぶべきものはチェックしておくこと。</p>
+<p>あれこれ思い巡らして考えると、クロスカントリーバイクをベースにして、トレイルバイクの要素が入っているくらいの塩梅が一番向いている気がする。わざわざ買い換えるならフルサスだろう。</p>
+<p>SPECIALIZEDならクロスカントリーのEpicとトレイル/オールマウンテンのStumpjumperの中間にEpic Evoというのが発表されている。TREKだとTop FuelとFuel Exの間はSupercaliberになるんだろうか？</p>
+<p>競技としてのマウンテンバイク・クロスカントリーはコースがテクニカルになる一方なので、競技用のバイクも先鋭化傾向にある。トレイルバイクのカテゴリーとの間に隙間が広がってきているので埋める意味でもいろいろなバイクが開発されているんだと思う。</p>
+<p>じゃあ、早速新しい自転車を買おう！じゃなくて、自分のマウンテンバイクのスタイルを見極めてみるためにもJamisのDragonslayerをもう少しクロスカントリーに寄せてみようと思います。</p>
+<h1 id="_5">トレイルバイクをクロスカントリーに近づける</h1>
+<p>Epic Evo Comp Carbon 29が狙っているあたりに共感できる。ちょっと比べてみよう。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Dragonslayer 15</th>
+<th style="text-align: center;">Epic Evo Comp Carbon 29 M</th>
+<th style="text-align: center;">Epic Comp Carbon 29 M</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">リーチ</td>
+<td style="text-align: center;">390</td>
+<td style="text-align: center;">436</td>
+<td style="text-align: center;">445</td>
+</tr>
+<tr>
+<td style="text-align: left;">スタック</td>
+<td style="text-align: center;">621</td>
+<td style="text-align: center;">597</td>
+<td style="text-align: center;">591</td>
+</tr>
+<tr>
+<td style="text-align: left;">TT長</td>
+<td style="text-align: center;">580</td>
+<td style="text-align: center;">不明</td>
+<td style="text-align: center;">不明</td>
+</tr>
+<tr>
+<td style="text-align: left;">ヘッドチューブ</td>
+<td style="text-align: center;">95</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr>
+<td style="text-align: left;">ヘッドアングル</td>
+<td style="text-align: center;">68°</td>
+<td style="text-align: center;">66.5°</td>
+<td style="text-align: center;">67.5°</td>
+</tr>
+<tr>
+<td style="text-align: left;">シートチューブ</td>
+<td style="text-align: center;">359</td>
+<td style="text-align: center;">430</td>
+<td style="text-align: center;">430</td>
+</tr>
+<tr>
+<td style="text-align: left;">シートアングル</td>
+<td style="text-align: center;">73°</td>
+<td style="text-align: center;">74.5°</td>
+<td style="text-align: center;">75.5°</td>
+</tr>
+<tr>
+<td style="text-align: left;">チェーンステー</td>
+<td style="text-align: center;">435</td>
+<td style="text-align: center;">438</td>
+<td style="text-align: center;">433</td>
+</tr>
+<tr>
+<td style="text-align: left;">ホイールベース</td>
+<td style="text-align: center;">1104</td>
+<td style="text-align: center;">1164</td>
+<td style="text-align: center;">1148</td>
+</tr>
+<tr>
+<td style="text-align: left;">BBドロップ</td>
+<td style="text-align: center;">47</td>
+<td style="text-align: center;">36</td>
+<td style="text-align: center;">48</td>
+</tr>
+<tr>
+<td style="text-align: left;">スタンドオーバー</td>
+<td style="text-align: center;">773</td>
+<td style="text-align: center;">781</td>
+<td style="text-align: center;">766</td>
+</tr>
+</tbody>
+</table>
+<p>ついでにEpic Compとも比較。</p>
+<p>やっぱりリーチは少し伸ばした方がいい。となるとステムを延長してみるか。スタックもマイナスしたいからステムでグッとハンドル位置を下げてみよう。ほかの数値はいじりようがないなあ。つまりできることはハンドル位置を調整するだけか……。乗り心地が変わるってことはないな。</p>
+<p>やっぱりクロスカントリージャンルのフルサスペンションバイクが欲しいかも。バイクとしての限界性能があがるから、もう少し年齢があがったら怪我を防ぐにはいいと思う。元気だったらだな。</p>
+<p>ということで、ステムとハンドルを交換してみる。</p>
+<p><img loading="lazy" alt="Ritcheyのステムとハンドル" src="/images/bike/jamis_dragonslayer/mtb_geometry-01.jpg" /></p>
+<p>Ritchey Trail 70mm &gt;&gt; Ritchey WCS C220 25D 90mm
+Ritchey Trail 710mm×20mmライズ &gt;&gt; Ritchey WCS Flat 740mm</p>
+<p>だいぶハンドルが下がりました。でもジオメトリーが変わったわけではないので、乗り心地に大きな変化は生まれず。ハンドルが前に出て下がったので前傾姿勢は取りやすくなりました。平坦路を走りやすくなるのかな？しかし、ステム上端の高さはそのままなのでハンドルが低くなった印象すらないかもしれない。</p>
+<p>あわせてドロッパーシートポストを導入。こちらのが影響大きそう。</p>
+<p>ドロッパーシートポストはBrand-XのAscend XL ドロッパーシートポストを選びました。31.6mm径で長さ499mm。170mmトラベル。125mmとか150mmトラベルが一般的なのに170mmトラベル。フレームが小さいこともあって、登りやすいように結構シートポストを出してます。ちょっとサドルが下げるだけじゃ効果的ではないのでこのサイズを選びました。重くなるけれどメリットはあるはず。</p>
+<p>取り付けが済んだら走って試す！</p>
+<p><a href="/articles/mtb_dropperseatpost.html">マウンテンバイクにドロッパーシートポスト</a>に続く。</p>
+    </div>
+
+    
+
+    <div class="article-footer-nav">
+        <a href="/">Home</a>
+        <span class="separator">|</span>
+        <a href="/archives.html">Archives</a>
+    </div>
+</article>
+
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 模型製作と自転車 - Koichiro Yamada</p>
+        </div>
+    </footer>
+</body>
+</html>
